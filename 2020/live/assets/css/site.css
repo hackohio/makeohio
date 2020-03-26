@@ -1,0 +1,215 @@
+body {
+  font-family: 'proximanova', "Proxima Nova", Helvetica, Sans-Serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+}
+
+a {
+  color: #bb0000;
+}
+
+#content {
+  margin-left: 300px;
+  align-items: center;
+  text-align: center;
+}
+
+.header{
+  background-color: #45403d;
+  border: #45403d 3px solid;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.split {
+  background-color: #45403d;
+  border: #45403d 3px solid;
+  width: 48%;
+  overflow: hidden;
+}
+
+.split .content-box {
+  height: 100%;
+}
+
+.wrapper {
+  margin: 40px auto;
+  width: calc(90% + 6px);
+  display: flex;
+  justify-content: space-between
+}
+
+.header h1, .split h1{
+  margin: 5px;
+}
+
+.content-box{
+	background-color: #FFFFFF;
+	color: black;
+	border: #45403d 0px solid;
+	padding: 25px 50px;
+}
+
+.announcements {
+  padding: 15px 50px 15px 50px;
+}
+
+.judging {
+  padding: 15px 50px 25px 50px;
+}
+
+#schedules {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#schedule h2 {
+  text-align: center;
+  color: #bb0000;
+  font-weight: 500;
+}
+
+#schedule td {
+  padding: 7px 15px;
+  text-align: left;
+}
+
+#schedule td:first-child {
+  text-align: right;
+  border-right: 2px solid gray;
+}
+
+#schedule td:last-child {
+  border-left: 2px solid gray;
+}
+
+#mobile-nav {
+  height: 45px;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #45403d;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: none;
+}
+
+#mobile-nav img{
+  height: 45%;
+  padding-right: 20px;
+}
+
+#nav-home {
+  color: white;
+  font-size: 1.15em;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+#nav-links {
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 45px;
+  background-color: #45403d;
+}
+
+#nav-links a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  background-color: #45403d;
+}
+
+#challenges-container, #resources-container {
+  text-align:left;
+}
+
+#prizes-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.prize {
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.prizes {
+  flex: 0 0 300px;
+}
+
+.prizes h2 {
+  color: #bb0000;
+}
+
+.sponsor {
+  width: 60%;
+}
+
+.col {
+  float:left;
+  display: block;
+  margin-right: 0;
+  text-align:center;
+  vertical-align: middle;
+  height:100%;
+}
+.col:first-child {
+  margin-left: 0;
+}
+
+.half {
+  width: 50%;
+}
+
+.clear {
+	clear:both;
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    width: 100%;
+    display: block;
+  }
+  .split {
+    width: 90%;
+    margin: 40px auto;
+  }
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+  .half {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  #content {
+    margin-top: 65px;
+    margin-left: 0;
+  }
+  #mobile-nav {
+    display:flex;
+  }
+  .content-box {
+    padding: 25px 20px;
+  }
+
+  .announcements {
+    padding: 15px 20px 15px 20px;
+  }
+
+  .judging {
+    padding: 15px 20px 25px 20px;
+  }
+}
