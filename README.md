@@ -2,7 +2,7 @@
 ![Deployment Status](https://github.com/hackohio/makeohio/workflows/Make-site%20S3%20Deployment/badge.svg)  
 Welcome to the official website for MakeOHI/O, an annual makeathon hosted by OHI/O at the Ohio State University.
 
-# How to contribute to the homepage
+# How to contribute to the website
 - You may want to run a local testing server if you're working with absolute paths or page builders.
 
 **Folder Structure**:  
