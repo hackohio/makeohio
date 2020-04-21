@@ -7,7 +7,7 @@ Welcome to the official website for MakeOHI/O, an annual makeathon hosted by OHI
 
 **Folder Structure**:  
 20**: Contains the HTML pages and asset folders for each individual event.  
-assets: Contains commonly used assets (such as minified js) that may be reused across events.
+assets: Contains commonly used assets (such as minified js) that may be reused across events.  
 index.html: The redirect page for the hack.osu.edu/make page to the most recent event page.
 
 **Deployment**:  
