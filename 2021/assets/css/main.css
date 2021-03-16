@@ -344,6 +344,8 @@ a.social-media-image {
 
 img {
 	vertical-align: middle;
+	max-width:50%;
+	max-height:50%;
 }
 
 .single-sponsor {
@@ -438,3 +440,4 @@ a.footer {
 .col {
     margin-bottom: 50px;
 }
+
