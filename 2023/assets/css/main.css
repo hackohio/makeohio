@@ -414,6 +414,14 @@ a.footer {
 	padding-bottom:5px;
 }
 
+ol.winners-list {
+	padding: 0;
+}
+
+ol.winners-list li::marker {
+	content: none;
+}
+
 @media screen and (max-width: 750px) {
 	.schedule-table {
 		width: 90%;
