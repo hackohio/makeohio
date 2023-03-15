@@ -414,12 +414,16 @@ a.footer {
 	padding-bottom:5px;
 }
 
-ol.winners-list {
+ol.winners-list, ol.winners-list ul {
 	padding: 0;
 }
 
-ol.winners-list li::marker {
+ol.winners-list li::marker, ol.winners-list ul::marker {
 	content: none;
+}
+
+h4 {
+	font-size: 1.25em;
 }
 
 @media screen and (max-width: 750px) {
