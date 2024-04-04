@@ -54,6 +54,9 @@ span.bld {
 	#hack-logo {
 		width: 200px;
 	}
+	.video-table td {
+		display: table-row;
+	}
 }
 
 .content {
@@ -474,3 +477,18 @@ h4 {
 	height:100%;
 }
 
+.winners-list .winner-groups:not(:last-child) {
+	border-bottom: #BB0000 solid;	
+}
+.winners-list .winner-groups {
+	padding: 20px;
+}
+.event-title {
+	text-align:left;
+	font-weight: bold;
+	border-top: #BB0000 solid 5px;
+	padding-top: 20px;
+}
+.video-table {
+	width: 100%;
+}
